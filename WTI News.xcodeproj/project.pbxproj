@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E17A63E1E52A4D700D596FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A63D1E52A4D700D596FD /* main.m */; };
+		4E17A6411E52A4D700D596FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A6401E52A4D700D596FD /* AppDelegate.m */; };
+		4E17A6491E52A4D700D596FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E17A6481E52A4D700D596FD /* Assets.xcassets */; };
+		4E17A64C1E52A4D700D596FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E17A64A1E52A4D700D596FD /* LaunchScreen.storyboard */; };
+		4E17A6571E52A4D700D596FD /* WTI_NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A6561E52A4D700D596FD /* WTI_NewsTests.m */; };
+		4E17A6621E52A4D700D596FD /* WTI_NewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A6611E52A4D700D596FD /* WTI_NewsUITests.m */; };
+		4E4592411E5C7FFA00A3E41B /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4592401E5C7FFA00A3E41B /* UIBarButtonItem+Extension.m */; };
+		4E4592461E5C81C600A3E41B /* WTINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4592451E5C81C600A3E41B /* WTINavigationController.m */; };
+		4E81AFE71E546F2E00C741B1 /* TitleCaroiselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E81AFE61E546F2E00C741B1 /* TitleCaroiselView.m */; };
+		4ED910761E54197600D100B9 /* WTIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED910741E54197600D100B9 /* WTIMainViewController.m */; };
+		4EE583741E59C36A005C8340 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE583731E59C36A005C8340 /* UIView+AdjustFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E17A6531E52A4D700D596FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E17A6311E52A4D700D596FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E17A6381E52A4D700D596FD;
+			remoteInfo = "WTI News";
+		};
+		4E17A65E1E52A4D700D596FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E17A6311E52A4D700D596FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E17A6381E52A4D700D596FD;
+			remoteInfo = "WTI News";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E17A6391E52A4D700D596FD /* WTI News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WTI News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E17A63D1E52A4D700D596FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E17A63F1E52A4D700D596FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E17A6401E52A4D700D596FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E17A6481E52A4D700D596FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E17A64B1E52A4D700D596FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E17A64D1E52A4D700D596FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E17A6521E52A4D700D596FD /* WTI NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WTI NewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E17A6561E52A4D700D596FD /* WTI_NewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTI_NewsTests.m; sourceTree = "<group>"; };
+		4E17A6581E52A4D700D596FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E17A65D1E52A4D700D596FD /* WTI NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WTI NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E17A6611E52A4D700D596FD /* WTI_NewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTI_NewsUITests.m; sourceTree = "<group>"; };
+		4E17A6631E52A4D700D596FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E45923F1E5C7FFA00A3E41B /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		4E4592401E5C7FFA00A3E41B /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		4E4592441E5C81C600A3E41B /* WTINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTINavigationController.h; sourceTree = "<group>"; };
+		4E4592451E5C81C600A3E41B /* WTINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTINavigationController.m; sourceTree = "<group>"; };
+		4E81AFE51E546F2E00C741B1 /* TitleCaroiselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCaroiselView.h; sourceTree = "<group>"; };
+		4E81AFE61E546F2E00C741B1 /* TitleCaroiselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCaroiselView.m; sourceTree = "<group>"; };
+		4E81AFEA1E54761300C741B1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4ED910731E54197600D100B9 /* WTIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTIMainViewController.h; sourceTree = "<group>"; };
+		4ED910741E54197600D100B9 /* WTIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTIMainViewController.m; sourceTree = "<group>"; };
+		4EE583721E59C36A005C8340 /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		4EE583731E59C36A005C8340 /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E17A6361E52A4D700D596FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E17A64F1E52A4D700D596FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E17A65A1E52A4D700D596FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E17A6301E52A4D700D596FD = {
+			isa = PBXGroup;
+			children = (
+				4E17A63B1E52A4D700D596FD /* WTI News */,
+				4E17A6551E52A4D700D596FD /* WTI NewsTests */,
+				4E17A6601E52A4D700D596FD /* WTI NewsUITests */,
+				4E17A63A1E52A4D700D596FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E17A63A1E52A4D700D596FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E17A6391E52A4D700D596FD /* WTI News.app */,
+				4E17A6521E52A4D700D596FD /* WTI NewsTests.xctest */,
+				4E17A65D1E52A4D700D596FD /* WTI NewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E17A63B1E52A4D700D596FD /* WTI News */ = {
+			isa = PBXGroup;
+			children = (
+				4E4592441E5C81C600A3E41B /* WTINavigationController.h */,
+				4E4592451E5C81C600A3E41B /* WTINavigationController.m */,
+				4ED910731E54197600D100B9 /* WTIMainViewController.h */,
+				4ED910741E54197600D100B9 /* WTIMainViewController.m */,
+				4E81AFE51E546F2E00C741B1 /* TitleCaroiselView.h */,
+				4E81AFE61E546F2E00C741B1 /* TitleCaroiselView.m */,
+				4E45923E1E5C7FFA00A3E41B /* UIBarButtonItem+Extension */,
+				4EE583711E59C36A005C8340 /* UIView+AdjustFrame */,
+				4E17A63C1E52A4D700D596FD /* Supporting Files */,
+			);
+			path = "WTI News";
+			sourceTree = "<group>";
+		};
+		4E17A63C1E52A4D700D596FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E17A63F1E52A4D700D596FD /* AppDelegate.h */,
+				4E17A6401E52A4D700D596FD /* AppDelegate.m */,
+				4E17A6481E52A4D700D596FD /* Assets.xcassets */,
+				4E17A64A1E52A4D700D596FD /* LaunchScreen.storyboard */,
+				4E17A64D1E52A4D700D596FD /* Info.plist */,
+				4E17A63D1E52A4D700D596FD /* main.m */,
+				4E81AFEA1E54761300C741B1 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E17A6551E52A4D700D596FD /* WTI NewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E17A6561E52A4D700D596FD /* WTI_NewsTests.m */,
+				4E17A6581E52A4D700D596FD /* Info.plist */,
+			);
+			path = "WTI NewsTests";
+			sourceTree = "<group>";
+		};
+		4E17A6601E52A4D700D596FD /* WTI NewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E17A6611E52A4D700D596FD /* WTI_NewsUITests.m */,
+				4E17A6631E52A4D700D596FD /* Info.plist */,
+			);
+			path = "WTI NewsUITests";
+			sourceTree = "<group>";
+		};
+		4E45923E1E5C7FFA00A3E41B /* UIBarButtonItem+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4E45923F1E5C7FFA00A3E41B /* UIBarButtonItem+Extension.h */,
+				4E4592401E5C7FFA00A3E41B /* UIBarButtonItem+Extension.m */,
+			);
+			path = "UIBarButtonItem+Extension";
+			sourceTree = "<group>";
+		};
+		4EE583711E59C36A005C8340 /* UIView+AdjustFrame */ = {
+			isa = PBXGroup;
+			children = (
+				4EE583721E59C36A005C8340 /* UIView+AdjustFrame.h */,
+				4EE583731E59C36A005C8340 /* UIView+AdjustFrame.m */,
+			);
+			path = "UIView+AdjustFrame";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E17A6381E52A4D700D596FD /* WTI News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E17A6661E52A4D700D596FD /* Build configuration list for PBXNativeTarget "WTI News" */;
+			buildPhases = (
+				4E17A6351E52A4D700D596FD /* Sources */,
+				4E17A6361E52A4D700D596FD /* Frameworks */,
+				4E17A6371E52A4D700D596FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WTI News";
+			productName = "WTI News";
+			productReference = 4E17A6391E52A4D700D596FD /* WTI News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E17A6511E52A4D700D596FD /* WTI NewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E17A6691E52A4D700D596FD /* Build configuration list for PBXNativeTarget "WTI NewsTests" */;
+			buildPhases = (
+				4E17A64E1E52A4D700D596FD /* Sources */,
+				4E17A64F1E52A4D700D596FD /* Frameworks */,
+				4E17A6501E52A4D700D596FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E17A6541E52A4D700D596FD /* PBXTargetDependency */,
+			);
+			name = "WTI NewsTests";
+			productName = "WTI NewsTests";
+			productReference = 4E17A6521E52A4D700D596FD /* WTI NewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E17A65C1E52A4D700D596FD /* WTI NewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E17A66C1E52A4D700D596FD /* Build configuration list for PBXNativeTarget "WTI NewsUITests" */;
+			buildPhases = (
+				4E17A6591E52A4D700D596FD /* Sources */,
+				4E17A65A1E52A4D700D596FD /* Frameworks */,
+				4E17A65B1E52A4D700D596FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E17A65F1E52A4D700D596FD /* PBXTargetDependency */,
+			);
+			name = "WTI NewsUITests";
+			productName = "WTI NewsUITests";
+			productReference = 4E17A65D1E52A4D700D596FD /* WTI NewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E17A6311E52A4D700D596FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "吴韬";
+				TargetAttributes = {
+					4E17A6381E52A4D700D596FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4E17A6511E52A4D700D596FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E17A6381E52A4D700D596FD;
+					};
+					4E17A65C1E52A4D700D596FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E17A6381E52A4D700D596FD;
+					};
+				};
+			};
+			buildConfigurationList = 4E17A6341E52A4D700D596FD /* Build configuration list for PBXProject "WTI News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E17A6301E52A4D700D596FD;
+			productRefGroup = 4E17A63A1E52A4D700D596FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E17A6381E52A4D700D596FD /* WTI News */,
+				4E17A6511E52A4D700D596FD /* WTI NewsTests */,
+				4E17A65C1E52A4D700D596FD /* WTI NewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E17A6371E52A4D700D596FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E17A64C1E52A4D700D596FD /* LaunchScreen.storyboard in Resources */,
+				4E17A6491E52A4D700D596FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E17A6501E52A4D700D596FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E17A65B1E52A4D700D596FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E17A6351E52A4D700D596FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E81AFE71E546F2E00C741B1 /* TitleCaroiselView.m in Sources */,
+				4E17A6411E52A4D700D596FD /* AppDelegate.m in Sources */,
+				4E4592411E5C7FFA00A3E41B /* UIBarButtonItem+Extension.m in Sources */,
+				4ED910761E54197600D100B9 /* WTIMainViewController.m in Sources */,
+				4EE583741E59C36A005C8340 /* UIView+AdjustFrame.m in Sources */,
+				4E17A63E1E52A4D700D596FD /* main.m in Sources */,
+				4E4592461E5C81C600A3E41B /* WTINavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E17A64E1E52A4D700D596FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E17A6571E52A4D700D596FD /* WTI_NewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E17A6591E52A4D700D596FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E17A6621E52A4D700D596FD /* WTI_NewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E17A6541E52A4D700D596FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E17A6381E52A4D700D596FD /* WTI News */;
+			targetProxy = 4E17A6531E52A4D700D596FD /* PBXContainerItemProxy */;
+		};
+		4E17A65F1E52A4D700D596FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E17A6381E52A4D700D596FD /* WTI News */;
+			targetProxy = 4E17A65E1E52A4D700D596FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E17A64A1E52A4D700D596FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E17A64B1E52A4D700D596FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E17A6641E52A4D700D596FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E17A6651E52A4D700D596FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E17A6671E52A4D700D596FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WTI News/PrefixHeader.pch";
+				INFOPLIST_FILE = "WTI News/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wootau.WTI-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E17A6681E52A4D700D596FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WTI News/PrefixHeader.pch";
+				INFOPLIST_FILE = "WTI News/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wootau.WTI-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E17A66A1E52A4D700D596FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WTI NewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wootau.WTI-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTI News.app/WTI News";
+			};
+			name = Debug;
+		};
+		4E17A66B1E52A4D700D596FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WTI NewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wootau.WTI-NewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTI News.app/WTI News";
+			};
+			name = Release;
+		};
+		4E17A66D1E52A4D700D596FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WTI NewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wootau.WTI-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WTI News";
+			};
+			name = Debug;
+		};
+		4E17A66E1E52A4D700D596FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WTI NewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wootau.WTI-NewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WTI News";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E17A6341E52A4D700D596FD /* Build configuration list for PBXProject "WTI News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E17A6641E52A4D700D596FD /* Debug */,
+				4E17A6651E52A4D700D596FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E17A6661E52A4D700D596FD /* Build configuration list for PBXNativeTarget "WTI News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E17A6671E52A4D700D596FD /* Debug */,
+				4E17A6681E52A4D700D596FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E17A6691E52A4D700D596FD /* Build configuration list for PBXNativeTarget "WTI NewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E17A66A1E52A4D700D596FD /* Debug */,
+				4E17A66B1E52A4D700D596FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E17A66C1E52A4D700D596FD /* Build configuration list for PBXNativeTarget "WTI NewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E17A66D1E52A4D700D596FD /* Debug */,
+				4E17A66E1E52A4D700D596FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E17A6311E52A4D700D596FD /* Project object */;
+}

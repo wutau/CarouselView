@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  WTI News
+//
+//  Created by 吴韬 on 17/2/15.
+//  Copyright © 2017年 吴韬. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+AdjustFrame.h"
+
+#define UICOLOR(R, G, B, A) [UIColor colorWithRed: (R)/255.0 green: (G)/255.0 blue: (B)/255.0 alpha: A]
+#define UI_RAMDOM_COLOR [UIColor colorWithRed: arc4random() % 255 / 255.0 green: arc4random() % 255 / 255.0 blue: arc4random() % 255 / 255.0 alpha: 1.0]
+
+#define SCREEN_SIZE [[UIScreen mainScreen] bounds].size
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define kTitleCarouselHeight 40
+#define kTltleButtonExtend 20
+#define kSubTitleNormalColor [UIColor colorWithRed: 50/255.0 green: 70/255.0 blue: 70/255.0 alpha: 1.0]
+#define kSubTitleSelectedColor [UIColor colorWithRed: 125/255.0 green: 200/255.0 blue: 70/255.0 alpha: 1.0]
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
